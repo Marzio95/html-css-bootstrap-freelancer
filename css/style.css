@@ -8,9 +8,7 @@
     background-color: #1abc9c;
 }
 
-.section_3{
-    height: 1000px;
-}
+
 
 .section_4{
     height: 300px;
@@ -60,5 +58,9 @@
 
 .rosso{
     background-color: red;
+}
+
+.height_300px{
     border-radius: 25px;
+    height: 300px;
 }
