@@ -4,7 +4,7 @@
 }
 
 .section_2{
-    height: 300px;
+    height: 400px;
     background-color: #1abc9c;
 }
 
@@ -33,4 +33,32 @@
 
 .white-color{
     color: white;
+}
+
+.image_random_conteiner{
+    height: 180px;
+    text-align: center;
+}
+
+.image_random{
+    height: 100%;
+    width: 100%;
+}
+
+.centratura{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.font_xxlarge{
+    font-size: xx-large;
+}
+
+.font_large{
+    font-size: large;
+}
+
+.rosso{
+    background-color: red;
+    border-radius: 25px;
 }
