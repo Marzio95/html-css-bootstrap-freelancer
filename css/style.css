@@ -82,3 +82,8 @@
     display: inline-block;
     margin-right: 0.4rem;
 }
+
+input::placeholder{
+    color: black;
+    font-size: 1.5rem;
+}
