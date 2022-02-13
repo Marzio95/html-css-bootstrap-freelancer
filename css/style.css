@@ -104,4 +104,14 @@ input::placeholder{
     padding-top: 50px;
 }
 
+.background_back_img{
+    background-color: rgba(0, 255, 0, 0.8);
+}
+
+.white-line{
+    border-radius: 25px;
+    height: 5px;
+    width: 100px;
+    background-color: white;
+}
 
