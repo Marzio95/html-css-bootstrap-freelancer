@@ -8,15 +8,10 @@
     background-color: #1abc9c;
 }
 
-
-
 .section_4{
     background-color: #1abc9c;
 }
 
-.section_5{
-    
-}
 
 .section_6{
    
@@ -69,7 +64,7 @@
 }
 
 .link_verde{
-    color: green;
+    color: #1abc9c;
 }
 
 .border_circle{
@@ -84,6 +79,29 @@
 }
 
 input::placeholder{
-    color: black;
+    color: #000000;
     font-size: 1.5rem;
 }
+
+.link-nav{
+    text-decoration: none;
+    color: white;
+}
+
+.link-nav:hover{
+    color: green;
+}
+
+.background_back{
+    background-color: #1abc9c;
+}
+
+.margine_50{
+    margin-top: 50px;
+}
+
+.padding_50{
+    padding-top: 50px;
+}
+
+

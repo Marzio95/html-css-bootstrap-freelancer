@@ -26,7 +26,7 @@
 
 
     <!-- SECTION 1 HEADER -->
-    <header class="container-fluid header_background">
+    <header class="container-fluid header_background fixed-top">
         <div
             class="row align-items-center justify-content-between justify-content-md-evenly justify-content-lg-evenly white-color height_100 text-uppercase fw-bolder">
             <div class="col-6">START BOOTSTRAP</div>
@@ -36,9 +36,9 @@
 
                 <nav class="d-none d-md-block">
                     <ul class="list-inline mb-0">
-                        <li class="list-inline-item">portfolio</li>
-                        <li class="list-inline-item">about</li>
-                        <li class="list-inline-item">content</li>
+                        <li class="list-inline-item"> <a class="link-nav p-3" href="#section1"> portfolio</a></li>
+                        <li class="list-inline-item"> <a class="link-nav p-3" href="#section2"> about</a></li>
+                        <li class="list-inline-item"> <a class="link-nav p-3" href="#section3"> content</a></li>
                     </ul>
                     
                 </nav>
@@ -55,8 +55,8 @@
 
         <!-- SECTION 2 START BOOTSTRAP -->
         <section>
-            <div class="container-fluid section_2 ">
-                <div class="row justify-content-center">
+            <div class="container-fluid section_2">
+                <div class="row justify-content-center margine_50">
                     <div class="col-6 col-md-4 col-lg-4 m-4 image_random_conteiner"><img class="image_random"
                             src="img/avatar.svg" alt="">
                     </div>
@@ -86,8 +86,8 @@
 
         <!-- SECTION 3 PORTFOLIO -->
         <section>
-            <div class="container-fluid section_3">
-                <div class="row justify-content-center mb-1">
+            <div id="section1"  class="container-fluid section_3">
+                <div  class="row justify-content-center mb-1 padding_50">
                     <div class="col-4 mt-4">
                         <h2 class="centratura">portfolio</h2>
                     </div>
@@ -101,7 +101,9 @@
 
                 <div class="row justify-content-center justify-content-md-evenly g-4 mb-5 g-lg-3">
                     <div class="col-11 col-md-5  col-lg-4 ">
+                        <div class="">
                         <img class="image_random" src="img/cabin.png" alt="">
+                        </div>
                     </div>
 
                     <div class="col-11 col-md-5  col-lg-4 ">
@@ -133,8 +135,8 @@
 
         <!-- SECTION 4 ABOUT -->
         <section>
-            <div class="container-fluid section_4">
-                <div class="row justify-content-center mb-4 pt-4">
+            <div id="section2" class="container-fluid section_4">
+                <div class="row justify-content-center mb-4 padding_50">
                     <div class="col-4 white-color">
                         <h2 class="centratura">about</h2>
                     </div>
@@ -163,7 +165,7 @@
 
                 <div class="row justify-content-center mt-3 pb-5">
                     <div class="col-1">
-                    <button type="button" class="btn btn-success">Download</button>
+                    <button type="button" class="btn btn-success bg-transparent text-white border-light">Download</button>
                 </div>
                 </div>
 
@@ -172,8 +174,8 @@
 
         <!-- SECTION 5 CONTACT ME -->
         <section>
-            <div class="container-fluid section_5">
-                <div class="row justify-content-center mt-4">
+            <div id="section3" class="container-fluid section_5">
+                <div class="row justify-content-center mt-4 pt-4">
                     <div class="col-12 centratura">
                         <h2>contact me</h2>
                     </div>
@@ -221,7 +223,7 @@
                     </div>
 
                     <div class="offset-2 col-8 pb-5">
-                    <button type="button" class="btn btn-success">Send</button>
+                    <button type="button" class="btn btn-success background_back">Send</button>
                     </div>
 
                 </div>
