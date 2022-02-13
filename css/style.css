@@ -100,6 +100,10 @@ html{
     color: green;
 }
 
+.hover_green:hover{
+    background-color: green!important;
+}
+
 .background_back{
     background-color: #1abc9c;
 }
@@ -113,7 +117,7 @@ html{
 }
 
 .background_back_img{
-    background-color: rgba(0, 255, 0, 0.8);
+    background-color: rgba(0, 255, 0, 0.2);
 }
 
 .white-line{
@@ -123,3 +127,17 @@ html{
     background-color: white;
 }
 
+.plus_visible{
+    visibility: hidden;
+    background-color: rgba(0, 255, 0, 0.2);
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.background_back_img:hover .plus_visible{
+    visibility: visible;
+}
