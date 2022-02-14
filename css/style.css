@@ -101,7 +101,8 @@ html{
 }
 
 .hover_green:hover{
-    background-color: green!important;
+    background-color: white!important;
+    color: black!important;
 }
 
 .background_back{
